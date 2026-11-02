@@ -1,0 +1,150 @@
+/* ================= REGISTER PAGE ================= */
+
+.register-page {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 140px 20px 60px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #0f0f1a,
+            #141428
+        );
+}
+
+/* ================= REGISTER CARD ================= */
+
+.register-card {
+
+    width: 100%;
+
+    max-width: 480px;
+
+    background: linear-gradient(
+        135deg,
+        #1e1e2f,
+        #2a2a45
+    );
+
+    padding: 40px;
+
+    border-radius: 28px;
+
+    box-shadow:
+        0 10px 40px rgba(0,0,0,0.35);
+}
+
+/* ================= TITLE ================= */
+
+.register-card h1 {
+
+    color: white;
+
+    font-size: 42px;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.register-card p {
+
+    color: #c7c7d9;
+
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+/* ================= FORM ================= */
+
+.register-form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 18px;
+}
+
+/* ================= INPUTS ================= */
+
+.form-group {
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+.form-group label {
+
+    color: white;
+
+    margin-bottom: 8px;
+
+    font-weight: 600;
+}
+
+.form-group input {
+
+    padding: 14px 16px;
+
+    border: 1px solid #3b3b5f;
+
+    border-radius: 14px;
+
+    background: #2a2a45;
+
+    color: white;
+
+    outline: none;
+
+    font-size: 15px;
+}
+
+.form-group input::placeholder {
+
+    color: #a8a8c0;
+}
+
+/* ================= BUTTON ================= */
+
+.register-btn {
+
+    padding: 16px;
+
+    border: none;
+
+    border-radius: 999px;
+
+    background: linear-gradient(
+        135deg,
+        #7b61ff,
+        #5b4bff
+    );
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.register-btn:hover {
+
+    transform: translateY(-2px);
+
+    opacity: 0.95;
+}

@@ -1,0 +1,116 @@
+/* PAGE */
+
+.checkout-page {
+    padding: 40px 0;
+}
+
+/* WRAPPER */
+
+.checkout-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+/* CARD */
+
+.checkout-form-card,
+.checkout-summary {
+
+    background: linear-gradient(145deg, #1e1e2f, #2a2a45);
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* TITLE */
+
+.checkout-form-card h1,
+.checkout-summary h2 {
+
+    margin-bottom: 25px;
+}
+
+/* FORM */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #2a2a45;
+
+    color: white;
+}
+
+/* BUTTON */
+
+.place-order-btn {
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 999px;
+
+    background: linear-gradient(135deg, #6c63ff, #8a7dff);
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+/* SUMMARY */
+
+.summary-row {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.total {
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    color: #6c63ff;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .checkout-wrapper {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,69 @@
+/* PAGE */
+
+.orders-page {
+
+    padding: 40px 0;
+
+    min-height: 70vh;
+}
+
+/* TITLE */
+
+.orders-title {
+
+    font-size: 36px;
+
+    margin-bottom: 30px;
+}
+
+/* LIST */
+
+.orders-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+/* CARD */
+
+.order-card {
+
+    background: linear-gradient(
+        145deg,
+        #1e1e2f,
+        #2a2a45
+    );
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.3);
+}
+
+.order-card h2 {
+
+    margin-bottom: 15px;
+}
+
+.order-card p {
+
+    margin-bottom: 10px;
+
+    color: #dddddd;
+}
+
+/* EMPTY */
+
+.empty-orders {
+
+    background: #1e1e2f;
+
+    padding: 30px;
+
+    border-radius: 20px;
+}
